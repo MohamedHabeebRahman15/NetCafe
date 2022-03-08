@@ -1,0 +1,168 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+
+body{
+    background-color: wheat;
+}
+.nav{
+    height: 70px;
+    background-color: red;
+    position: sticky;
+    top: 0;
+  
+   
+ 
+} 
+.nav h3{
+    color: white;
+    float: left;
+    font-size: 50px;
+    margin-left: 10px;
+}
+.nav h3 span{
+    color: black;
+    padding-left: 2px;
+}
+.nav ul{
+   list-style: none;
+list-style-type: none;
+    display: inline-flex;
+    float: right;
+         
+     
+}
+.nav ul li{
+   margin: 10px 15px;
+   padding: 10px 10px;
+     width: 120px;
+     font-size: 12px;
+
+   
+     
+}
+.nav ul li a{
+    text-decoration: none;
+    color:black;
+    padding-left: 10px;
+    font-size: 20px;
+    text-align: center;
+
+}
+.active,.nav ul li:hover{
+    background-color: white;
+    cursor: pointer;
+    border-radius: 3px;  
+}
+.submenu1{
+    display:none;
+}
+.nav ul li:hover .submenu1{
+    display: block;
+    position: absolute;
+    background-color: rgb(48, 46, 46);
+    margin-top: 10px;
+    margin-bottom: -15px;
+    transition: all 400ms;
+   text-align: center;
+   z-index: 1;
+  
+
+}
+.nav ul li:hover .submenu1 ul{
+    display: block;
+    margin: 10px;
+    
+
+}
+.nav ul li:hover .submenu1 ul li:last-child{
+    border-bottom: none;
+}
+.nav ul li:hover .submenu1 ul li{
+    width: 200px;
+    padding: 10px;
+    border-bottom: 1px solid white;
+    background: transparent;
+    text-align: left;
+    transition: all 400ms;
+   
+}
+.nav ul li:hover .submenu1 ul li a{
+    color: white;
+
+}
+
+
+.nav ul li:hover .submenu1 ul  :hover{
+   background-color: rgb(199, 5, 5); 
+}
+.footer{
+    background-color: red;
+    
+}
+.footer h3{
+    color: white;
+    font-size: 20px;
+    padding: 10px 10px;
+}
+.footer h3:nth-child(1){
+    float: right;
+}
+.main2{
+    display: flex;
+}
+.main2 img{
+
+    width: 20em;
+    height: 20em;
+  position: relative;
+  top: 150px;
+  left: 400px;
+ 
+}
+.contact{
+
+   
+    width: 75%;
+    background-color: white;
+    margin-left: 10em;
+    padding: 2em 0em;
+    
+}
+
+.contact-1 img{
+    width: 20em;
+    height: 25em;
+    margin-left: 4em;
+    margin-top: 10px;
+    border-radius: 10px;
+    
+
+
+}
+.contact-1{
+    background-color: red;
+    width: 30em;
+    height: auto;
+    padding: 5px 10px;
+   
+    border-radius: 10px;
+    margin: 3em 17em;
+    
+}
+.contact-1 h3{
+    color: white;
+    font-size: 25px;
+    display: flex;
+
+    padding: 10px;
+}
+.contact-1 h3 span{
+    color: black;
+    padding-left: 3px;
+}
+
+

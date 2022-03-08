@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="G:\project\component\headset\headphone-details\headphone_details.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <h3>net<span>cafe</span></h3>
+            <ul>
+                
+                <li ><a href="G:\project\home.html">Home</a></li>
+                <li ><a href="#">Mobile</a>
+                <div class="submenu1">
+                    <ul>
+                        <li><a href="G:\project\component\mobile\vivo.html">Vivo</a></li>
+                        <li><a href="\project\component\mobile\realme.html">Realme</a></li>
+                        <li><a href="\project\component\mobile\samsung.html">Samsung</a></li>
+                        <li ><a href="G:\project\component\mobile\oppo.html">Oppo</a></li>
+
+                    </ul>
+                </div></li>
+                <li class="active"><a href="#">Headset</a>
+                    <div class="submenu1">
+                        <ul>
+                            <li><a href="G:\project\component\headset\wired.html">Wired</a></li>
+                            <li><a href="G:\project\component\headset\wireless.html">Wireless</a></li>
+                            <li><a href="G:\project\component\headset\headphone.html">Headphone</a></li>
+                        </ul>
+                    </div></li>
+                <li><a href="G:\project\component\contact\contact.html">Contact</a></li>
+                <li ><a href="G:\project\component\about\about.html">About</a></li>
+            </ul>
+            </div>
+           </div>
+           <div class="contant">
+               <div class="small-img">
+                   <img src="G:\project\component\headset\headphone-details\pic\402-1.jpeg" onmouseover="myfuncyion(this)">
+                   <img src="G:\project\component\headset\headphone-details\pic\402-2.jpeg" onmouseover="myfuncyion(this)">
+                   <img src="G:\project\component\headset\headphone-details\pic\402-3.jpeg"  onmouseover="myfuncyion(this)">
+                   <img src="G:\project\component\headset\headphone-details\pic\404-4.jpeg"  onmouseover="myfuncyion(this)">
+                  
+
+               </div>
+               <div class="big-img">
+                   <img id="imgbox" src="G:\project\component\headset\headphone-details\pic\402-1.jpeg">
+
+               </div>
+               <div class="details">
+                   <h2>Full Details</h2>
+                   <ul>
+                    <li>Model Name: <span> 
+                        Airdopes 402</span> </li>
+                     
+                    <li>Color:<span>Blue</span>
+                       </li>
+               
+                    <li>HeadPhone type:<span> True Wireless</span></li>
+                    <li>Inline remote:<span> No</span></li>
+                    <li>Connectively:<span> Bluetooth</span></li>
+                   </ul>
+                   <h3>PRICE:<span>1500</span></h3>
+
+               </div>
+               <script>
+                   function myfuncyion(smallImg){
+                       var fullimg=document.getElementById("imgbox");
+                       fullimg.src=smallImg.src;
+
+                   }
+               </script>
+              
+               
+            
+           </div>
+        <div class="footer">
+            <h3>Developed & Maintaine by:<br>I.Habeeb Rahman</h3>
+            <h3>Copyright © 2020 - 2030. All Rights Reserved.NetCafe<br> www.NetCafe.ac.in</h3>
+        </div>
+    
+</body>
+</html>
